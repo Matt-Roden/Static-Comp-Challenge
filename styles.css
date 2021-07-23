@@ -45,6 +45,7 @@ main {
 .cards-display {
   border: solid orange 5px;
 }
+
 /* Card Styles */
 
  .card-wrapper {
@@ -64,5 +65,6 @@ main {
  }
 
  .card-info-wrapper {
-   border: solid 2px
+   border: solid 2px;
+   margin: 5px 0px 5px 0px
  }
