@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/* Header Section */
+
+header {
+  border: solid red 3px
+}
+
+.left-side-wrapper {
+  border: dotted blue 2px;
+}
+
+nav {
+  border: solid pink 2px;
+}
+
+.nav-link {
+  border: dotted red 2px;
+}
+
+.right-side-wrapper {
+  border: solid yellow 2px;
+}
+
+.username-wrapper {
+  border: solid blue 3px;
+}
+
+.logo {
+  border: dotted purple 2px;
+}
+
+/* Main Section */
+
+main {
+  border: solid green 3px;
+}
+
+.title-box {
+  border: solid 3px;
+}
+
+.cards-display {
+  border: solid orange 5px;
+}
+/* Card Styles */
+
+ .card-wrapper {
+    border: solid blue 3px;
+ }
+
+ .card-top {
+     border: solid red 3px;
+ }
+
+ .listeners-wrapper {
+   border: solid blue 3px;
+ }
+
+ .card-bottom {
+     border: solid green 3px;
+ }
+
+ .card-info-wrapper {
+   border: solid 2px
+ }
