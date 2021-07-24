@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+/* Header Section */
+
+header {
+  border: solid red 3px
+}
+
+.left-side-wrapper {
+  border: dotted blue 2px;
+}
+
+nav {
+  border: solid pink 2px;
+}
+
+.nav-link {
+  border: dotted red 2px;
+}
+
+.right-side-wrapper {
+  border: solid yellow 2px;
+}
+
+.username-wrapper {
+  border: solid blue 3px;
+}
+
+.logo {
+  border: dotted purple 2px;
+}
+
+/* Main Section */
+
+main {
+  border: solid green 3px;
+}
+
+.title-box {
+  /* border: solid 3px; */
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.cards-display {
+  border: solid orange 5px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Card Styles */
+
+.card-wrapper {
+  border: solid blue 3px;
+  width: 300px;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+
+.card-top {
+  border: solid red 1px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-vec {
+  border: dotted green 1px;
+  margin: 5px;
+}
+
+.listeners-wrapper {
+  border: dotted blue 3px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-bottom {
+  /* border: dotted green 1px; */
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-info-wrapper {
+  border: solid 1px;
+  padding: 0;
+  margin: 0px 10px 3px 10px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colored-info-box {
+  padding: 6px 7px 10px 7px;
+  background-color: gray;
+  opacity: .65;
+  overflow-x: scroll;
+}
