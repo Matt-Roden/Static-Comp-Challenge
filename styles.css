@@ -16,7 +16,7 @@ img {
 
 header {
   border: solid red 3px;
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -30,7 +30,10 @@ header {
 
 nav {
   border: solid pink 2px;
-  width: 66%;
+  width: 70%;
+}
+.nav-img {
+  margin: 5px;
 }
 
 ul {
@@ -40,7 +43,7 @@ ul {
 
 }
 
-.nav-link {
+li {
   border: dotted red 2px;
   font-size: 12px;
   display: flex;
@@ -53,6 +56,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .username-wrapper {
@@ -81,7 +85,7 @@ ul {
 
 main {
   border: solid green 3px;
-  height: 100;
+  height: 100%;
 }
 
 .title-box {
@@ -97,7 +101,7 @@ h1 {
 
 .cards-display {
   border: solid orange 5px;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -106,8 +110,8 @@ h1 {
 
 .card-wrapper {
   border: solid blue 3px;
-  width: 300px;
-  height: 388px;
+  width: 330px;
+  height: 400px;
   margin: 5px;
   display: flex;
   flex-direction: column;
