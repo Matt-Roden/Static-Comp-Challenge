@@ -8,10 +8,15 @@ body{
   margin: 0;
   padding: 0;
 }
+
+img {
+  font-size: 3px;
+}
 /* Header Section */
 
 header {
   border: solid red 3px;
+  height: 150px;
   display: flex;
   justify-content: space-between;
 }
@@ -25,7 +30,7 @@ header {
 
 nav {
   border: solid pink 2px;
-  width: 75%;
+  width: 66%;
 }
 
 ul {
@@ -37,6 +42,9 @@ ul {
 
 .nav-link {
   border: dotted red 2px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
 }
 
 .right-side-wrapper {
@@ -58,11 +66,11 @@ ul {
 }
 
 .username-pic {
-  font-size: 10px;
+
 }
 
 .username-triangle {
-  font-size: 10px;
+
 }
 
 .logo {
@@ -73,6 +81,7 @@ ul {
 
 main {
   border: solid green 3px;
+  height: 100;
 }
 
 .title-box {
@@ -99,6 +108,7 @@ h1 {
   border: solid blue 3px;
   width: 300px;
   height: 388px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
