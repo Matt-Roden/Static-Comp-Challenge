@@ -45,16 +45,19 @@ main {
 }
 
 .title-box {
-  border: solid 3px;
+  /* border: solid 3px; */
   height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 10px;
 }
 
 .cards-display {
   border: solid orange 5px;
   padding: 10px;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -64,14 +67,14 @@ main {
 .card-wrapper {
   border: solid blue 3px;
   width: 300px;
-  height: 410px;
+  height: 388px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
  }
 
 .card-top {
-  border: solid red 3px;
+  border: solid red 1px;
   height: 140px;
   display: flex;
   justify-content: space-between;
@@ -79,7 +82,7 @@ main {
 }
 
 .card-vec {
-  border: dotted green 3px;
+  border: dotted green 1px;
   margin: 5px;
 }
 
@@ -93,22 +96,26 @@ main {
 }
 
 .card-bottom {
-  border: dotted green 5px;
-  height: 250px;
+  /* border: dotted green 1px; */
+  height: 265px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .card-info-wrapper {
-  border: solid 2px;
+  border: solid 1px;
   padding: 0;
-  margin: 3px 10px 3px 10px;
-  height: 25%;
+  margin: 0px 10px 3px 10px;
+  height: 50px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .colored-info-box {
   padding: 6px 7px 10px 7px;
+  background-color: gray;
+  opacity: .65;
   overflow-x: scroll;
 }
