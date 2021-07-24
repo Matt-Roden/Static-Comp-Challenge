@@ -164,16 +164,10 @@ h1 {
  }
 
 .card-top {
-  /* border: solid red 1px; */
   height: 194px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* background-image: url('./assets/Artist2.jpg');
-  background-size: 345px 186px; */
-  /* background-image: url('./assets/Rapper1.jpg');
-  background-size: 345px 186px; */
-  /* overflow-x: scroll; */
 }
 
 .card-vec {
