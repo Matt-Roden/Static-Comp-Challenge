@@ -42,10 +42,27 @@ ul {
 .right-side-wrapper {
   border: solid yellow 2px;
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .username-wrapper {
   border: solid blue 3px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.username {
+  font-size: 10px;
+}
+
+.username-pic {
+  font-size: 10px;
+}
+
+.username-triangle {
+  font-size: 10px;
 }
 
 .logo {
