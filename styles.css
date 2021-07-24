@@ -11,19 +11,34 @@ body{
 /* Header Section */
 
 header {
-  border: solid red 3px
+  border: solid red 3px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-side-wrapper {
   border: dotted blue 2px;
+  /* display: flex;
+
+  justify-content: flex-start; */
+
+}
+
+.nav-wrapper {
+  display: flex;
+
 }
 
 nav {
   border: solid pink 2px;
+
 }
 
 .nav-link {
-  border: dotted red 2px;
+  /* border: dotted red 2px; */
+
+
+
 }
 
 .right-side-wrapper {
