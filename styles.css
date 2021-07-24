@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -15,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #FEFEFE;
+
 }
 
 .left-side-wrapper {
@@ -26,7 +28,7 @@ header {
 
 nav {
   /* border: solid pink 2px; */
-  width: 64%;
+  width: 55%;
   margin-bottom: 10px;
   margin-left: 5px;
 }
@@ -34,8 +36,15 @@ nav {
 .nav-img {
   height: 25px;
   width: 25px;
+  margin: 10px 5px 10px 5px;
+  padding: 0px 12px 5px 2px;
+}
+
+.nav-img-home {
+  height: 26px;
+  width: 55px;
   margin: 10px;
-  padding: 0px 2px 5px 2px;
+  padding: 0px 12px 5px 2px;
 }
 
 ul {
@@ -154,7 +163,11 @@ h1 {
 
 .card-vec {
   /* border: dotted green 1px; */
-  margin: 5px;
+  /* margin: 5px; */
+  height: 25px;
+  width: 25px;
+  margin: 10px 5px 10px 5px;
+  padding: 0px 12px 5px 2px;
 }
 
 .listeners-wrapper {
@@ -164,6 +177,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .card-bottom {
@@ -204,6 +218,31 @@ h1 {
 
 .card3 {
   background-image: url('../assets/AcousticGirl.jpg');
+  background-size: 345px 186px;
+}
+
+.card4 {
+  background-image: url('../assets/SunsetBand.jpg');
+  background-size: 345px 186px;
+}
+
+.card5 {
+  background-image: url('../assets/ElectroDuo.jpg');
+  background-size: 345px 186px;
+}
+
+.card6 {
+  background-image: url('../assets/AcousticGuy.jpg');
+  background-size: 345px 186px;
+}
+
+.card7 {
+  background-image: url('../assets/GuitarChick.jpg');
+  background-size: 345px 186px;
+}
+
+.card8 {
+  background-image: url('../assets/bongoDude.jpg');
   background-size: 345px 186px;
 }
 
