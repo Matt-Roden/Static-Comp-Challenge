@@ -61,6 +61,7 @@ ul {
   justify-content: space-around;
 }
 
+
 li {
   /* border: dotted red 2px; */
   font-size: 16px;
@@ -264,6 +265,61 @@ h1 {
 .card8 {
   background-image: url('../assets/bongoDude.jpg');
   background-size: 345px 186px;
+}
+
+@media screen and (max-width: 550px) {
+
+  /* ul {
+    flex-direction: column;
+    justify-content: space-around;
+  } */
+
+  li {
+    margin: 10px 10px 10px 10px;
+  }
+
+  .nav-img {
+    height: 15px;
+    width: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav-img-home {
+    height: 15px;
+    width: 30px;
+    /* margin: 10px; */
+    padding: 0px;
+  }
+
+  header {
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left-side-wrapper {
+    /* border: dotted blue 2px; */
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .left-side-wrapper {
+    /* border: dotted blue 2px; */
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+  }
 }
 
 /* ------ Individual Cards for Images-------- */
