@@ -18,31 +18,30 @@ header {
 
 .left-side-wrapper {
   border: dotted blue 2px;
-  /* display: flex;
-
-  justify-content: flex-start; */
-
-}
-
-.nav-wrapper {
+  width: 80%;
   display: flex;
-
+  align-items: flex-end;
 }
 
 nav {
   border: solid pink 2px;
+  width: 75%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 
 }
 
 .nav-link {
-  /* border: dotted red 2px; */
-
-
-
+  border: dotted red 2px;
 }
 
 .right-side-wrapper {
   border: solid yellow 2px;
+  width: 20%;
 }
 
 .username-wrapper {
