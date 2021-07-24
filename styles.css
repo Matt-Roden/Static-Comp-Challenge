@@ -4,21 +4,17 @@
   font-size: 16px;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-}
-
 img {
   font-size: 3px;
 }
-/* Header Section */
+/* ------ Header Section -------- */
 
 header {
-  border: solid red 3px;
-  height: 100px;
+  /* border: solid red 3px; */
+  height: 115px;
   display: flex;
   justify-content: space-between;
+  background-color: #FEFEFE;
 }
 
 .left-side-wrapper {
@@ -34,26 +30,28 @@ nav {
   margin-bottom: 10px;
   margin-left: 5px;
 }
+
 .nav-img {
-  margin: 5px;
+  margin: 10px;
+  padding: 0px 2px 5px 2px;
 }
 
 ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-
+  justify-content: space-around;
 }
 
 li {
   /* border: dotted red 2px; */
-  font-size: 12px;
+  font-size: 16px;
+  color: #242424;
   display: flex;
   align-items: center;
 }
 
 .right-side-wrapper {
-  border: solid yellow 2px;
+  /* border: solid yellow 2px; */
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -81,65 +79,77 @@ li {
 }
 
 .logo {
-  border: dotted purple 2px;
+  /* border: dotted purple 2px; */
   margin-bottom: 15px;
+  margin-top: 25px;
+  height: 120px;
+  width: 120px;
 }
 
-/* Main Section */
+/*  ---------- Main Section ---------- */
 
 main {
-  border: solid green 3px;
+  /* border: solid green 3px; */
+  background-color: #FEFEFE;
   height: 100%;
 }
 
 .title-box {
   /* border: solid 3px; */
-  height: 50px;
+  height: 70px;
   display: flex;
   align-items: center;
 }
 
 h1 {
   margin-left: 14px;
+  font-size: 25px;
+  color: #242424;
 }
 
 .cards-display {
-  border: solid orange 5px;
+  /* border: solid orange 5px; */
   padding: 5px;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Card Styles */
+/* ---------- Card Styles ----------- */
 
 .card-wrapper {
-  border: solid blue 3px;
-  width: 330px;
-  height: 400px;
+  /* border: solid blue 3px; */
+  width: 345px;
+  height: 420px;
   margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: white;
+  border-radius: 0px;
+  box-shadow:  -1.75px 1.75px 8px #DEE9E6,
+               1.75px -1.75px 8px #FEFEFE;
  }
 
 .card-top {
-  border: solid red 1px;
-  height: 140px;
+  /* border: solid red 1px; */
+  height: 194px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-image: url('../assets/jakayla-toney-_SUo0bFBMRc-unsplash.jpg');
-  background-size: 100% 200%;
+  /* background-image: url('../assets/Artist2.jpg');
+  background-size: 345px 186px; */
+  background-image: url('../assets/Rapper1.jpg');
+  background-size: 345px 186px;
   overflow-x: scroll;
 }
 
 .card-vec {
-  border: dotted green 1px;
+  /* border: dotted green 1px; */
   margin: 5px;
 }
 
 .listeners-wrapper {
-  border: dotted blue 3px;
+  /* border: dotted blue 3px; */
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -156,7 +166,7 @@ h1 {
 }
 
 .card-info-wrapper {
-  border: solid 1px;
+  /* border: solid 1px; */
   padding: 0;
   margin: 0px 10px 3px 10px;
   height: 50px;
@@ -171,3 +181,4 @@ h1 {
   opacity: .65;
   overflow-x: scroll;
 }
+/* Styling Notes: When resizing down, try and make the main section fit in the middle! */
