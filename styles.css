@@ -22,15 +22,17 @@ header {
 }
 
 .left-side-wrapper {
-  border: dotted blue 2px;
+  /* border: dotted blue 2px; */
   width: 80%;
   display: flex;
   align-items: flex-end;
 }
 
 nav {
-  border: solid pink 2px;
-  width: 70%;
+  /* border: solid pink 2px; */
+  width: 64%;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
 .nav-img {
   margin: 5px;
@@ -39,12 +41,12 @@ nav {
 ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 
 li {
-  border: dotted red 2px;
+  /* border: dotted red 2px; */
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -60,7 +62,8 @@ li {
 }
 
 .username-wrapper {
-  border: solid blue 3px;
+  /* border: solid blue 3px; */
+  margin-top: 5px;
   display: flex;
   justify-content: space-around;
 }
@@ -79,6 +82,7 @@ li {
 
 .logo {
   border: dotted purple 2px;
+  margin-bottom: 15px;
 }
 
 /* Main Section */
