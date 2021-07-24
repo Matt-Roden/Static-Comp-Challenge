@@ -60,52 +60,51 @@ main {
 
 /* Card Styles */
 
- .card-wrapper {
-    border: solid blue 3px;
-    width: 300px;
-    /* height: 420px; */
-    display: flex;
-    flex-direction: column;
+.card-wrapper {
+  border: solid blue 3px;
+  width: 300px;
+  height: 420px;
+  /* display: flex;
+  flex-direction: column; */
  }
 
- .card-top {
-     border: solid red 3px;
-     height: 33%;
-     display: flex;
-     justify-content: space-between;
-     align-items: flex-start;
- }
+.card-top {
+  border: solid red 3px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
- .card-img {
-   border: dotted green 3px;
- }
+.card-vec {
+  border: dotted green 3px;
+  margin: 5px;
+}
 
- .listeners-wrapper {
-   border: dotted blue 3px;
+.listeners-wrapper {
+  border: dotted blue 3px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
+.card-bottom {
+  border: dotted green 5px;
+  display: flex;
+  flex-direction: column;
+}
 
- .card-bottom {
-     border: dotted green 5px;
-     height: 67%;
-     display: flex;
-     flex-direction: column;
+.card-info-wrapper {
+  border: solid 2px;
+  padding: 0;
+  margin: 3px 10px 3px 10px;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+}
 
- }
-
- .card-info-wrapper {
-   padding: 0;
-   border: solid 2px;
-   margin: 5px 0px 5px 0px;
-   height: 25%;
-   display: flex;
-   flex-direction: column;
- }
-
- .colored-info-box {
-   overflow-x: scroll;
- }
+.colored-info-box {
+  overflow-x: scroll;
+}
