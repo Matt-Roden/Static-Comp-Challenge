@@ -221,43 +221,43 @@ h1 {
 }
 
 .card1 {
-  background-image: url('./assets/Rapper1.jpg');
+  background-image: url("./assets/Rapper1.jpg");
   background-size: 345px 186px;
   /* background-size: contain; */
 }
 
 .card2 {
-  background-image: url('./assets/SaxGuy.jpg');
+  background-image: url("./assets/SaxGuy.jpg");
   background-size: 345px 186px;
 }
 
 .card3 {
-  background-image: url('./assets/AcousticGirl.jpg');
+  background-image: url("./assets/AcousticGirl.jpg");
   background-size: 345px 186px;
 }
 
 .card4 {
-  background-image: url('./assets/SunsetBand.jpg');
+  background-image: url("./assets/SunsetBand.jpg");
   background-size: 345px 186px;
 }
 
 .card5 {
-  background-image: url('./assets/ElectroDuo.jpg');
+  background-image: url("./assets/ElectroDuo.jpg");
   background-size: 345px 186px;
 }
 
 .card6 {
-  background-image: url('./assets/AcousticGuy.jpg');
+  background-image: url("./assets/AcousticGuy.jpg");
   background-size: 345px 186px;
 }
 
 .card7 {
-  background-image: url('./assets/GuitarChick.jpg');
+  background-image: url("./assets/GuitarChick.jpg");
   background-size: 345px 186px;
 }
 
 .card8 {
-  background-image: url('./assets/bongoDude.jpg');
+  background-image: url("./assets/bongoDude.jpg");
   background-size: 345px 186px;
 }
 
