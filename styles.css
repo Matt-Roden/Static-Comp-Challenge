@@ -20,9 +20,24 @@ p {
 }
 
 footer {
+  margin-top: 200px;
   height: 250px;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.contact-info-sec {
+
+
+}
+
+.contact-info {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
 /* ------------- Header Section ------------ */
 
 header {
