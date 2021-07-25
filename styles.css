@@ -19,26 +19,6 @@ p {
   font-size: 12px;
 }
 
-footer {
-  margin-top: 200px;
-  height: 250px;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact {
-  margin-left: 350px;
-  margin-right: 350px;
-}
-
-.contact2 {
-  padding-top: 45px;
-  font-size: 10px;
-}
-
 /* ------------- Header Section ------------ */
 
 header {
@@ -93,11 +73,11 @@ li {
   color: #242424;
   display: flex;
   align-items: center;
-  transition: all 0.4s ease;
+  transition: all 1.4s ease;
 }
 
-li:hover {
-  font-size: 18px;
+li:hover{
+  /* font-size: 18px; */
   border-bottom: solid 1px;
 }
 
@@ -246,6 +226,56 @@ h1 {
   padding: 6px 9px 10px 9px;
   background-color: #BEBFC0;
   overflow-x: scroll;
+}
+
+/* --------------- Footer ------------------- */
+
+footer {
+  margin-top: 50px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grow {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grow-tree {
+  /* border: solid 1px; */
+  height: 200px;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-top: 170px;
+  transition: all 0.5s ease;
+}
+
+.grow-tree:hover {
+  height: 250px;
+  width: 250px;
+}
+
+.grow-text {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.contact {
+  margin-left: 24%;
+  margin-right: 24%;
+}
+
+.contact2 {
+  padding-top: 45px;
+  font-size: 10px;
+  margin-bottom: 25px;
 }
 
 /* ------ Individual Images for Cards -------- */
