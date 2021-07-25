@@ -252,21 +252,32 @@ footer {
 
 .grow-tree {
   /* border: solid 1px; */
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin-bottom: 50px;
   margin-top: 100px;
   transition: all 0.5s ease;
 }
 
-.grow-tree:hover {
-  height: 250px;
-  width: 250px;
-}
+/* .grow-tree:hover {
+  height: 275px;
+  width: 275px;
+} */
 
 .grow-text {
   font-size: 18px;
   font-weight: bolder;
+  transition: all 0.45s ease;
+}
+
+.grow-text:hover {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  /* border-bottom: solid 2px; */
+  border-radius: 2px;
 }
 
 .socials-wrapper {
@@ -282,6 +293,35 @@ footer {
   width: 50px;
   margin-left: 10px;
   margin-right: 10px;
+  transition: all 0.25s ease;
+}
+
+.socials:hover {
+  height: 55px;
+  width: 55px;
+  /* padding-bottom: 15px;
+  border-bottom: solid 1px; */
+}
+
+.facebook:hover {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-left: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.insta:hover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.twitter:hover {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
 }
 
 .contact-box {
@@ -417,9 +457,13 @@ footer {
     align-items: flex-end;
   }
 
+  .grow-tree {
+    height: 150px;
+    width: 150px;
+  }
+
   .contact {
     margin-left: 15%;
     margin-right: 15%;
   }
-
 }
