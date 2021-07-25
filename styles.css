@@ -137,13 +137,13 @@ li:hover {
   margin-top: 10px;
   height: 85px;
   width: 100px;
-  transition: all 0.75s ease;
+  transition: all 0.5s ease;
 }
 
 .logo:hover {
   margin-top: 10px;
-  height: 110px;
-  width: 120px;
+  height: 95px;
+  width: 106px;
 }
 
 /*  -------------- Main Section ------------- */
@@ -203,7 +203,7 @@ h1 {
   width: 25px;
   margin: 10px 0px 15px 5px;
   padding: 0px 12px 5px 2px;
-  transition: all 0.35s ease;
+  transition: all 0.25s ease;
 }
 
 .card-vec:hover {
