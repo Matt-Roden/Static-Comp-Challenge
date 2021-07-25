@@ -1,3 +1,5 @@
+/* ----------- Global Section ------------ */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,15 +18,18 @@ h4 {
 p {
   font-size: 12px;
 }
-/* ------ Header Section -------- */
+
+/* ------------- Header Section ------------ */
 
 header {
   /* border: solid red 3px; */
-  height: 115px;
+  width: 100vw;
+  height: 125px;
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   background-color: #FEFEFE;
-
 }
 
 .left-side-wrapper {
@@ -68,11 +73,11 @@ li {
   color: #242424;
   display: flex;
   align-items: center;
-  transition: all 0.4s ease;
+  transition: all 1.4s ease;
 }
 
-li:hover {
-  font-size: 18px;
+li:hover{
+  /* font-size: 18px; */
   border-bottom: solid 1px;
 }
 
@@ -97,29 +102,33 @@ li:hover {
 }
 
 .username-pic {
-  height: 25px;
-  width: 25px;
-  /* margin: 10px; */
+  height: 15px;
+  width: 15px;
   padding: 0px 8px 5px 8px;
 }
 
 .username-triangle {
-  height: 25px;
-  width: 25px;
-  /* margin: 10px; */
+  height: 15px;
+  width: 15px;
   padding: 0px 8px 0px 8px;
-
 }
 
 .logo {
   /* border: dotted purple 2px; */
   margin-bottom: 15px;
-  margin-top: 25px;
-  height: 120px;
-  width: 120px;
+  margin-top: 10px;
+  height: 85px;
+  width: 100px;
+  transition: all 0.5s ease;
 }
 
-/*  ---------- Main Section ---------- */
+.logo:hover {
+  margin-top: 10px;
+  height: 95px;
+  width: 106px;
+}
+
+/*  -------------- Main Section ------------- */
 
 main {
   /* border: solid green 3px; */
@@ -128,7 +137,6 @@ main {
 }
 
 .title-box {
-  /* border: solid 3px; */
   height: 70px;
   display: flex;
   align-items: center;
@@ -148,7 +156,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-/* ---------- Card Styles ----------- */
+/* ------------- Card Styles --------------- */
 
 .card-wrapper {
   /* border: solid blue 3px; */
@@ -174,12 +182,11 @@ h1 {
 
 .card-vec {
   /* border: dotted green 1px; */
-  /* margin: 5px; */
   height: 25px;
   width: 25px;
   margin: 10px 0px 15px 5px;
   padding: 0px 12px 5px 2px;
-  transition: all 0.35s ease;
+  transition: all 0.25s ease;
 }
 
 .card-vec:hover {
@@ -218,14 +225,127 @@ h1 {
   border-radius: 1px;
   padding: 6px 9px 10px 9px;
   background-color: #BEBFC0;
-  opacity: .65;
   overflow-x: scroll;
 }
+
+/* --------------- Footer ------------------- */
+
+footer {
+  /* border: solid 2px; */
+  /* margin-top: 50px; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grow {
+  margin-top: 250px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grow-tree {
+  /* border: solid 1px; */
+  height: 250px;
+  width: 250px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  transition: all 0.5s ease;
+}
+
+/* .grow-tree:hover {
+  height: 275px;
+  width: 275px;
+} */
+
+.grow-text {
+  font-size: 18px;
+  font-weight: bolder;
+  transition: all 0.45s ease;
+}
+
+.grow-text:hover {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  /* border-bottom: solid 2px; */
+  border-radius: 2px;
+}
+
+.socials-wrapper {
+  /* border: solid 2px; */
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 75px;
+}
+
+.socials {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.25s ease;
+}
+
+.socials:hover {
+  height: 55px;
+  width: 55px;
+  /* padding-bottom: 15px;
+  border-bottom: solid 1px; */
+}
+
+.facebook:hover {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-left: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.insta:hover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.twitter:hover {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  margin-left: 24%;
+  margin-right: 24%;
+}
+
+.contact2 {
+  padding-top: 45px;
+  font-size: 10px;
+  margin-bottom: 25px;
+}
+
+/* ------ Individual Images for Cards -------- */
 
 .card1 {
   background-image: url("./assets/Rapper1.jpg");
   background-size: 345px 186px;
-  /* background-size: contain; */
 }
 
 .card2 {
@@ -263,29 +383,64 @@ h1 {
   background-size: 345px 186px;
 }
 
-@media screen and (max-width: 550px) {
+/* ------------ Media Queries -------------- */
 
-  /* ul {
-    flex-direction: column;
-    justify-content: space-around;
-  } */
+@media screen and (max-width: 900px) {
+  nav {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .left-side-wrapper {
+    /* border: dotted blue 2px; */
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 550px) {
 
   li {
     margin: 10px 10px 10px 10px;
   }
 
+  nav {
+    margin-left: 3px;
+  }
+
   .nav-img {
     height: 15px;
     width: 15px;
-    margin: 0px;
+    margin-right: 5px;
     padding: 0px;
   }
 
   .nav-img-home {
     height: 15px;
     width: 30px;
-    /* margin: 10px; */
     padding: 0px;
+  }
+
+  .logo {
+    height: 60px;
+    width: 65px;
+  }
+
+  .username {
+    font-size: 10px;
+  }
+
+  .username-pic {
+    height: 11px;
+    width: 11px;
+    padding: 0px 8px 5px 8px;
+  }
+
+  .username-triangle {
+    height: 11px;
+    width: 11px;
+    padding: 0px 8px 0px 8px;
   }
 
   header {
@@ -302,23 +457,13 @@ h1 {
     align-items: flex-end;
   }
 
-}
-
-@media screen and (max-width: 900px) {
-  nav {
-    width: 100%;
-    margin-left: 0;
+  .grow-tree {
+    height: 150px;
+    width: 150px;
   }
 
-  .left-side-wrapper {
-    /* border: dotted blue 2px; */
-    width: 80%;
-    display: flex;
-    align-items: flex-end;
+  .contact {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
-
-/* ------ Individual Cards for Images-------- */
-
-
-/* Styling Notes: When resizing down, try and make the main section fit in the middle! */
