@@ -26,16 +26,17 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.contact-info-sec {
-
-
-}
-
-.contact-info {
+.contact {
   margin-left: 350px;
   margin-right: 350px;
+}
+
+.contact2 {
+  padding-top: 45px;
+  font-size: 10px;
 }
 
 /* ------------- Header Section ------------ */
