@@ -10,6 +10,8 @@
 
 - I wanted this page to be built essentially as a template for a future dev to come in and plug and play with colors, images, icons, etc, while still keeping the exact same layout provided by the comp, and needing very little, if any styling of element positions.
 
+- My page has been styled in the way of a record company's 'Artists' page.
+
 ## Project Development Time Line:
 
 ### The Comp: 
@@ -36,11 +38,16 @@
 - HTML
 - CSS
 - Chrome and FireFox developer tools
+- Miro
+- Photoshop
 - Git
 - GitHub
-- Photoshop
 
 ## Future Iterations:
+
+- Adding audio players to each card.
+- Make the same page, but using grid.
+- Instead of a vertical scroll on smaller screens, I would like to try a horizontal scroll. 
 
 ## Contributors:
 
