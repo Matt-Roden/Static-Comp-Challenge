@@ -2,6 +2,8 @@
 
 ### Deploy Link:
 
+https://matt-roden.github.io/Static-Comp-Challenge/
+
 ## Overview:
 
 - This project was intended for students to design a static page based off of a comp. Students were given creative freedom when it came to content & color, but the layout of the cards and over all page needed to match.
