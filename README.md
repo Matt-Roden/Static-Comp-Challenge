@@ -20,7 +20,7 @@
 
 ![wireframe-whole](./assets/fullsiteWireFrame.png)
 
-![wireframe-card](.assets/cardWireFrame.png)
+![wireframe-card](./assets/cardWireFrame.png)
 
 ### Desktop View:
 
