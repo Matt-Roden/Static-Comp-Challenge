@@ -16,6 +16,19 @@
 
 ![comp](./assets/Comp.png)
 
+### Wireframe Stage:
+
+![wireframe-whole](./assets/fullsiteWireFrame.png)
+
+![wireframe-card](.assets/cardWireFrame.png)
+
+### Desktop View:
+
+![destopView](./assets/desktopview.gif)
+
+### Responsive Views:
+
+![responsive](./assets/responsiveView.gif)
 
 
 ## Technology Used:
