@@ -14,6 +14,8 @@
 
 ### The Comp: 
 
+![comp](./assets/Comp.png)
+
 
 
 ## Technology Used:
